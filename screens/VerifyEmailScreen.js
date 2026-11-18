@@ -1,0 +1,2 @@
+import React from "react";import {View,Text,Button,StyleSheet} from "react-native";
+export default function VerifyEmailScreen({navigation}){return <View style={s.container}><Text style={s.title}>Demo mode</Text><Text style={s.text}>Ứng dụng sử dụng tài khoản cục bộ nên không cần xác minh email.</Text><Button title="Đến đăng nhập" onPress={()=>navigation.replace("SigninScreen")}/></View>};const s=StyleSheet.create({container:{flex:1,justifyContent:"center",padding:20},title:{fontSize:24,textAlign:"center",marginBottom:20},text:{textAlign:"center",marginBottom:20}});

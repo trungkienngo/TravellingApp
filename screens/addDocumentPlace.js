@@ -1,0 +1,1 @@
+import React from "react";import {View,Text} from "react-native";export default function AddDocumentPlace(){return <View style={{flex:1,justifyContent:"center",padding:24}}><Text>Dữ liệu demo được lưu tại data/places.js. Không cần nhập Firebase.</Text></View>}
